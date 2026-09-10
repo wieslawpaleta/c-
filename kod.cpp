@@ -1,7 +1,7 @@
 //C++ w3schools
 //Introduction, Get Started with C++, Syntax, Statements, Syntax Code Challenge, Output (Print Text), Print Numbers, New Lines, Output Code Challenge, Comments
 /*Ja, ich weiß, wie man mehrzeilige Kommentare verwendet.*/
-//VariablesDeclare, Multiple Variables, Identifiers, Constants, Variables Examples (Tu jestem teraz)
+//VariablesDeclare, Multiple Variables, Identifiers, Constants, Variables Examples, Variables Code Challenge, User Input (Tu jestem teraz)
 //
 //
 //
@@ -56,6 +56,29 @@ int main() {
     cout << kilometerProStunde << endl;
     // kilometerProStunde = 30; //error
     // cout << kilometerProStunde << endl;
+
+
+//Der Rechteckrechner
+    int Länge = 4;
+    int Breite = 6;
+
+
+    int Fläche = Länge * Breite;
+
+
+    cout << "Die Länge beträgt: " << Länge << "\n";
+    cout << "Die Breite beträgt: " << Breite << "\n";
+    cout << "die Fläche des Rechtecks beträgt: " << Fläche << "\n";
+
+
+//User Input
+    int d;
+    cout << "Gib eine Zahl ein: ";
+    cin >> d;
+    cout << "Deine Zahl ist: " << d;
+
+
+    
 
     return 0;
 
