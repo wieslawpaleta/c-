@@ -1,7 +1,7 @@
 //C++ w3schools
 //Introduction, Get Started with C++, Syntax, Statements, Syntax Code Challenge, Output (Print Text), Print Numbers, New Lines, Output Code Challenge, Comments
 /*Ja, ich weiß, wie man mehrzeilige Kommentare verwendet.*/
-//VariablesDeclare, Multiple Variables, Identifiers, Constants, Variables Examples, Variables Code Challenge, User Input (Tu jestem teraz)
+//VariablesDeclare, Multiple Variables, Identifiers, Constants, Variables Examples, Variables Code Challenge, User Input, Data Types, Numeric Data Types, Boolean Data Types (Tu jestem teraz)
 //
 //
 //
@@ -75,10 +75,27 @@ int main() {
     int d;
     cout << "Gib eine Zahl ein: ";
     cin >> d;
-    cout << "Deine Zahl ist: " << d;
+    cout << "Deine Zahl ist: " << d << endl;
 
+//Der Rechteckrechner mit CIN
+    int teil1, teil2;
+    int summe;
+    cout << "Gib eine Zahl ein: ";
+    cin >> teil1;
+    cout << "Gib die nächste Zahl ein: ";
+    cin >> teil2;
+    summe = teil1 + teil2;
+    cout << "Die Summe beträgt: " << summe << endl;
 
-    
+    float meinFloatNum = 5.99;
+    string meinText1 = "Hallo";
+    char meinBuchstabe = 'D';
+
+    float f1 = 35e3;
+    double d1 = 12E4;
+    cout << f1;
+    cout << d1;
+
 
     return 0;
 
