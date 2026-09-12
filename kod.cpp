@@ -1,7 +1,8 @@
 //C++ w3schools
 //Introduction, Get Started with C++, Syntax, Statements, Syntax Code Challenge, Output (Print Text), Print Numbers, New Lines, Output Code Challenge, Comments
 /*Ja, ich weiß, wie man mehrzeilige Kommentare verwendet.*/
-//VariablesDeclare, Multiple Variables, Identifiers, Constants, Variables Examples, Variables Code Challenge, User Input, Data Types, Numeric Data Types, Boolean Data Types (Tu jestem teraz)
+//VariablesDeclare, Multiple Variables, Identifiers, Constants, Variables Examples, Variables Code Challenge, User Input, Data Types, Numeric Data Types, Boolean Data Types
+//Character Data Types, String Data Types, auto, Data Types Examples,(Tu jestem teraz)
 //
 //
 //
@@ -11,6 +12,8 @@
 
 
 #include <iostream>
+#include <string>
+#include <typeinfo>
 using namespace std;
 
 
@@ -94,7 +97,26 @@ int main() {
     float f1 = 35e3;
     double d1 = 12E4;
     cout << f1;
-    cout << d1;
+    cout << d1 << endl;
+
+
+    char p = 65; 
+    char r = 66; 
+    char q = 67;
+    cout << p << endl;
+    cout << b << endl;
+    cout << c << endl;
+
+
+    auto i = 2.99f;
+    cout << typeid(i).name() << endl;
+
+
+    int stück = 49;
+    double kosten_pro_stück  = 23.66;
+    double währung = '$';
+
+    
 
 
     return 0;
